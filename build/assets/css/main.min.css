@@ -327,6 +327,61 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+#features {
+  background: #FF851B;
+  text-align: center;
+  position: relative;
+  height: 350px; }
+  #features:after {
+    bottom: 0;
+    position: absolute;
+    background: inherit;
+    content: " ";
+    height: 100%;
+    left: 0;
+    right: 0;
+    transform: skewY(-10deg);
+    transform-origin: 100%;
+    z-index: -1; }
+
+h2 {
+  margin: 80px 0; }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 30px; }
+
+.feature-cards {
+  background: white;
+  padding: 30px 40px 10px 40px;
+  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px; }
+  .feature-cards:hover {
+    background: #ddd;
+    border-top: 3px solid #FFDC00;
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.5); }
+  .feature-cards h3 {
+    margin: 10px 0 0; }
+
+.card1 {
+  border-top: 3px solid #0074D9; }
+
+.card2 {
+  border-top: 3px solid #0074D9; }
+
+.card3 {
+  border-top: 3px solid #0074D9; }
+
+.card4 {
+  border-top: 3px solid #0074D9; }
+
+.card5 {
+  border-top: 3px solid #0074D9; }
+
+.card6 {
+  border-top: 3px solid #0074D9; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -349,22 +404,24 @@ hr {
   background-size: cover;
   height: 700px;
   color: white;
-  text-align: left; }
+  text-align: left;
+  overflow: hidden; }
 
 img {
   max-width: 300px;
   width: 100%; }
 
 article {
-  width: 80%;
+  width: 100%;
   margin: 0 auto; }
 
 h1 {
-  margin-bottom: 10px;
+  margin: 50px auto;
   color: #7FDBFF; }
 
 h5 {
-  color: #3D9970; }
+  color: #3D9970;
+  margin: 50px auto; }
 
 .main-nav {
   display: flex; }
