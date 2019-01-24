@@ -1,1 +1,1 @@
-# product-discovery-and-collaboration
+# Product Discovery and Collaboration Platform
