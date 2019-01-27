@@ -190,7 +190,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: black;
+  background: white;
   font-size: 14px;
   line-height: 1.6;
   font-size: 14px;
@@ -421,7 +421,7 @@ h2 {
   left: 0; }
 
 #header {
-  background: url("../img/titleBackground.jpg") no-repeat;
+  background: url("../img/home-banner-bg.png") no-repeat;
   background-size: cover;
   height: 700px;
   color: white;
@@ -438,7 +438,7 @@ article {
 
 h1 {
   margin: 50px auto;
-  color: #7FDBFF; }
+  color: white; }
 
 h5 {
   color: #3D9970;
@@ -453,3 +453,94 @@ a.getstarted {
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none; }
+
+#headerforbrowseprojects {
+  background: url("../img/banner-bg.png") no-repeat;
+  background-size: cover;
+  height: 700px;
+  color: white;
+  text-align: left; }
+
+img {
+  max-width: 300px;
+  width: 100%; }
+
+article.browseprojectsherotext {
+  font-family: 'Sarabun', sans-serif; }
+
+article.browseprojectsherotext h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 25px; }
+
+.tags {
+  text-align: center;
+  text-decoration: none; }
+  .tags ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: center; }
+    @media only screen and (max-width: 550px) {
+      .tags ul {
+        padding-bottom: 20px; } }
+  .tags li {
+    font-weight: 800;
+    text-transform: uppercase; }
+  .tags a {
+    color: white; }
+
+.item1 {
+  background: #32ff7e;
+  padding: 10px 10px;
+  border-radius: 35px; }
+
+.item2 {
+  background: #ff3838;
+  padding: 10px 10px;
+  border-radius: 35px; }
+
+.item3 {
+  background: #fff200;
+  padding: 10px 10px;
+  border-radius: 35px; }
+
+.item4 {
+  background: #18dcff;
+  padding: 10px 10px;
+  border-radius: 35px; }
+
+.item5 {
+  background: #ff9f1a;
+  padding: 10px 10px;
+  border-radius: 35px; }
+
+.item6 {
+  background: #7d5fff;
+  padding: 10px 10px;
+  border-radius: 35px; }
+
+.item7 {
+  background: #3d3d3d;
+  padding: 10px 10px;
+  border-radius: 35px; }
+
+.projects ul {
+  display: flex;
+  flex-direction: row;
+  color: blue;
+  margin-top: 200px;
+  list-style: none;
+  font-weight: 600;
+  font-size: 100%; }
+
+.projects a {
+  color: blue;
+  margin: 10px 140px;
+  margin-bottom: 250px;
+  margin-left: 20px;
+  background: green;
+  border-radius: 20px; }
