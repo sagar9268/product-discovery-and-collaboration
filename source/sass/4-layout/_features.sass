@@ -1,0 +1,57 @@
+#features
+  background: $orange
+  text-align: center
+  position: relative
+  height: 350px
+
+  &:after
+    bottom: 0
+    position: absolute
+    background: inherit
+    content: " "
+    height: 100%
+    left: 0
+    right: 0
+    transform: skewY(-10deg)
+    transform-origin: 100%
+    z-index: -1
+
+h2
+  margin: 80px 0
+
+.cards
+  display: grid
+  grid-template-columns: repeat(3, auto)
+  grid-gap: 30px
+
+.feature-cards
+  background: white
+  padding: 30px 40px 10px 40px
+  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2)
+  border-radius: 4px
+
+  &:hover
+    background: $silver
+    border-top: 3px solid $yellow
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.5)
+
+  h3
+    margin: 10px 0 0
+
+.card1
+  border-top: 3px solid $blue
+
+.card2
+  border-top: 3px solid $blue
+
+.card3
+  border-top: 3px solid $blue
+
+.card4
+  border-top: 3px solid $blue
+
+.card5
+  border-top: 3px solid $blue
+
+.card6
+  border-top: 3px solid $blue
