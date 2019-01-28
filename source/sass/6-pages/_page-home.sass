@@ -33,3 +33,21 @@ a.getstarted
   font-weight: 600
   text-transform: uppercase
   text-decoration: none
+
+#brands
+  margin: 75px 0
+  ul
+    width: 100%
+    padding: 20px 10px
+    margin: 0
+    background: none
+    display: grid
+    grid-template-columns: repeat(20,auto)
+    @media only screen and (max-width: 800px)
+      grid-template-columns: repeat(10,auto)
+
+  li
+    list-style: none
+
+  li img
+    width: 100%
