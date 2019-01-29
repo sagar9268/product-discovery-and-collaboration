@@ -247,7 +247,7 @@ a {
   text-decoration: none;
   outline: 0; }
   a:hover, a:focus {
-    color: blue; }
+    color: white; }
 
 ::selection {
   background: #FFF498; }
@@ -530,10 +530,6 @@ a.getstarted {
   #brands li img {
     width: 100%; }
 
-#tags-for-sorting {
-  background: red;
-  border-radius: 40px; }
-
 #browseprojects-jumbotron-h1 {
   text-align: center; }
 
@@ -543,9 +539,58 @@ a.getstarted {
 #browseprojects-jumbotron-sub2 {
   text-align: center; }
 
-#tags-for-sorting {
-  text-align: center;
-  align-items: center; }
+#tags-for-sorting1 {
+  background: #009432;
+  border-radius: 40px;
+  border-style: none; }
+
+#tags-for-sorting2 {
+  background: #FFC312;
+  border-radius: 40px;
+  border-style: none; }
+
+#tags-for-sorting3 {
+  background: #0652DD;
+  border-radius: 40px;
+  border-style: none; }
+
+#tags-for-sorting4 {
+  background: #ED4C67;
+  border-radius: 40px;
+  border-style: none; }
+
+#tags-for-sorting5 {
+  background: #D980FA;
+  border-radius: 40px;
+  border-style: none; }
+
+#tags-for-sorting6 {
+  background: #EE5A24;
+  border-radius: 40px;
+  border-style: none; }
+
+#tags-for-sorting7 {
+  background: #12CBC4;
+  border-radius: 40px;
+  border-style: none; }
 
 body {
-  background: white; }
+  background: url("../img/banner-bg.png") no-repeat; }
+
+.navbar-nav {
+  text-transform: uppercase;
+  color: white; }
+  .navbar-nav .nav-item .nav-link {
+    color: #dfe4ea;
+    font-weight: 400; }
+    .navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link:focus {
+      color: white;
+      font-weight: 450; }
+  .navbar-nav .nav-item .btn.btn-outline-success {
+    background: white;
+    border-style: none;
+    color: #7F32FE;
+    font-weight: bold; }
+
+.card-body {
+  text-align: center; }
