@@ -462,6 +462,69 @@ h2 {
     padding: 20px 0 0 0;
     text-align: center; }
 
+#howto {
+  background: none;
+  height: auto;
+  position: relative;
+  padding: 0 0 0 10px; }
+  #howto:after {
+    bottom: 0;
+    position: fixed;
+    background: #FF4136;
+    content: "";
+    height: 100%;
+    left: 0;
+    right: 0;
+    transform: skewX(-20deg);
+    transform-origin: 100%;
+    z-index: -2; }
+
+.howtocardheading {
+  display: flex;
+  padding: 0 25px; }
+  .howtocardheading div {
+    width: 50%; }
+  .howtocardheading h2 {
+    color: #111; }
+
+.howtomain {
+  display: grid;
+  grid-template-columns: repeat(2, auto); }
+
+.howtocards {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-gap: 30px;
+  background: none;
+  padding-bottom: 50px; }
+  .howtocards div {
+    width: 100%; }
+  .howtocards h3 {
+    color: white; }
+
+.howtocard {
+  background: black;
+  margin: 0;
+  padding: 0 25px;
+  border-radius: 50px;
+  display: flex; }
+  .howtocard:hover, .howtocard:active, .howtocard:focus {
+    transform: translateX(10px);
+    transition: all 0.3s ease-in-out; }
+
+.howtocardsimages {
+  margin: auto 0; }
+  .howtocardsimages img {
+    float: right; }
+
+h2.cursor {
+  color: #00E600;
+  margin-right: 10px; }
+
+h3.cursor {
+  color: #00E600;
+  margin-right: 10px; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -529,3 +592,6 @@ a.getstarted {
     list-style: none; }
   #brands li img {
     width: 100%; }
+    #brands li img:hover {
+      transform: translateY(-5px);
+      transition: all 0.2s ease-in-out; }
