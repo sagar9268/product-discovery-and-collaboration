@@ -1,0 +1,66 @@
+#howto
+  background: none
+  height: auto
+  position: relative
+  padding: 0 0 0 10px
+
+  &:after
+    bottom: 0
+    position: fixed
+    background: $red
+    content: ""
+    height: 100%
+    left: 0
+    right: 0
+    transform: skewX(-20deg)
+    transform-origin: 100%
+    z-index: -2
+
+
+.howtocardheading
+  display: flex
+  padding: 0 25px
+  div
+    width: 50%
+  h2
+    color: $black
+
+.howtomain
+  display: grid
+  grid-template-columns: repeat(2, auto)
+
+.howtocards
+  display: grid
+  grid-template-columns: repeat(1, auto)
+  grid-gap: 30px
+  background: none
+  padding-bottom: 50px
+
+  div
+    width: 100%
+  h3
+    color: white
+
+.howtocard
+  background: black
+  margin: 0
+  padding: 0 25px
+  border-radius: 50px
+  display: flex
+
+  &:hover,&:active,&:focus
+    transform: translateX(10px)
+    transition: all 0.3s ease-in-out
+
+.howtocardsimages
+  margin: auto 0
+  img
+    float: right
+
+h2.cursor
+  color: $green
+  margin-right: 10px
+
+h3.cursor
+  color: $green
+  margin-right: 10px
