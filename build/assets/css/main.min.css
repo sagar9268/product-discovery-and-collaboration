@@ -543,7 +543,7 @@ h3.cursor {
   left: 0; }
 
 #header {
-  background: url("../img/titleBackground.jpg") no-repeat;
+  background: url("../img/home-banner-bg.png") no-repeat;
   background-size: cover;
   height: 700px;
   color: white;
@@ -560,7 +560,7 @@ article {
 
 h1 {
   margin: 50px auto;
-  color: #7FDBFF; }
+  color: white; }
 
 h5 {
   color: #3D9970;
@@ -595,3 +595,20 @@ a.getstarted {
     #brands li img:hover {
       transform: translateY(-5px);
       transition: all 0.2s ease-in-out; }
+
+#tags-for-sorting {
+  background: red;
+  border-radius: 40px; }
+
+#browseprojects-jumbotron-h1 {
+  text-align: center; }
+
+#browseprojects-jumbotron-sub {
+  text-align: center; }
+
+#browseprojects-jumbotron-sub2 {
+  text-align: center; }
+
+#tags-for-sorting {
+  text-align: center;
+  align-items: center; }
